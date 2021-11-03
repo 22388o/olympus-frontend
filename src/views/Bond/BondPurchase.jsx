@@ -142,7 +142,7 @@ function BondPurchase({ bond, slippage, recipientAddress }) {
 
   return (
     <Box>
-      <Box border={1} borderColor="white" backgroundColor="white" color="white">
+      <Box border={1} borderColor="white" style={{ color: "white", backgroundColor: "#e91e63" }}>
         <Tabs value={view} textColor="primary" indicatorColor="primary" onChange={changeView} aria-label="bond tabs">
           <Tab label={<span style={{ fontSize: "12px" }}>Bond</span>} {...a11yProps(0)} />
           <Tab label={<span style={{ fontSize: "12px" }}>Limit</span>} {...a11yProps(1)} />
